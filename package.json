@@ -1,8 +1,8 @@
 {
-  "name": "@dashevo/insight-api",
-  "description": "A Dash blockchain REST and WebSocket API Service",
-  "version": "3.1.2",
-  "repository": "git://github.com/dashevo/insight-api.git",
+  "name": "@skeincurrency/insight-api",
+  "description": "A SkeinCurrency blockchain REST and WebSocket API Service",
+  "version": "3.1.1",
+  "repository": "git://github.com/skeincurrency/insight-api.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,15 +38,15 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/dashevo/insight-api/issues"
+    "url": "https://github.com/skeincurrency/insight-api/issues"
   },
-  "homepage": "https://github.com/dashevo/insight-api",
+  "homepage": "https://github.com/skeincurrency/insight-api",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "dash api",
+    "SkeinCurrency api",
     "blockchain api",
     "json",
     "bitcore-dash",
@@ -60,7 +60,7 @@
   },
   "main": "lib/index.js",
   "dependencies": {
-    "@dashevo/dashcore-lib": "^0.19.25",
+    "@skeincurrency/core-lib": "^0.19.27",
     "async": "^2.6.2",
     "body-parser": "^1.19.0",
     "compression": "^1.7.4",
@@ -70,7 +70,7 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
+    "chai": "^4.3.0",
     "mocha": "^5.2.0",
     "proxyquire": "^1.8.0",
     "should": "^13.2.3",

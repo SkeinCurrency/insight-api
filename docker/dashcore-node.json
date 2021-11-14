@@ -4,7 +4,7 @@
   "services": [
     "dashd",
     "web",
-    "@dashevo/insight-api"
+    "@skeincurrency/insight-api"
   ],
   "servicesConfig": {
     "dashd": {

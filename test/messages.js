@@ -3,7 +3,8 @@
 var should = require('should');
 var sinon = require('sinon');
 var MessagesController = require('../lib/messages');
-var dashcore = require('@dashevo/dashcore-lib');
+var dashcore = require('@skeincurrency/core-lib');
+    dashcore.Networks = require('./network');
 var _ = require('lodash');
 
 describe('Messages', function() {
