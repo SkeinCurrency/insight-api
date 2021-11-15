@@ -49,7 +49,7 @@ describe('Currency', function() {
     };
     var currency = new TestCurrencyController({node: node});
     currency.exchange_rates = {
-      dash_usd: 9.4858840414,
+      dash_usd: 10,
       btc_usd: 682.93,
       btc_dash: 0.01388998
     };
@@ -59,7 +59,7 @@ describe('Currency', function() {
       jsonp: function(response) {
         response.status.should.equal(200);
         should.exist(response.data.dash_usd);
-        response.data.dash_usd.should.equal(9.4858840414);
+        response.data.dash_usd.should.equal(10);
         done();
       }
     };
