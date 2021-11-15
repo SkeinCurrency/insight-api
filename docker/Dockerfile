@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:14-alpine
 
 RUN apk add --update --no-cache \
                             git \
@@ -24,7 +24,7 @@ RUN npm ci
 # Install Insight API module
 RUN bin/core-node install @skeincurrency/insight-api@${VERSION}
 
-FROM node:8-alpine
+FROM node:14-alpine
 
 LABEL maintainer="SkeinCurrency Developers <dev@dash.org>"
 LABEL description="Dockerised Insight API"

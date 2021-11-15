@@ -1,8 +1,9 @@
 {
   "name": "@skeincurrency/insight-api",
   "description": "A SkeinCurrency blockchain REST and WebSocket API Service",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "repository": "git://github.com/skeincurrency/insight-api.git",
+  "engines" : { "node" : ">=14.12" },
   "contributors": [
     {
       "name": "Gustavo Cortez",
